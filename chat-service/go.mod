@@ -1,4 +1,4 @@
-module github.com/CaioVGA/chat-service-chatgpt
+module github.com/CaioVGA/chat-service-chatgpt/chat-service
 
 go 1.20
 

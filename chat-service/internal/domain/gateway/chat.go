@@ -3,7 +3,7 @@ package gateway
 import (
 	"context"
 
-	"github.com/CaioVGA/chat-service-chatgpt/internal/domain/entity"
+	"github.com/CaioVGA/chat-service-chatgpt/chat-service/internal/domain/entity"
 )
 
 type ChatGateway interface {
