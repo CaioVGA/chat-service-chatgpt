@@ -144,11 +144,11 @@ func (r *ChatRepositoryMySQL) SaveChat(ctx context.Context, chat *entity.Chat) e
 	if err != nil {
 		return err
 	}
-	err = r.Queries.DeleteMessagesByChatID(ctx, chat.ID)
+	err = r.Queries.DeleteChatMessages(ctx, chat.ID)
 	if err != nil {
 		return err
 	}
-	err = r.Queries.DeleteErasedMessagesByChatID(ctx, chat.ID)
+	err = r.Queries.DeleteErasedChatMessages(ctx, chat.ID)
 	if err != nil {
 		return err
 	}

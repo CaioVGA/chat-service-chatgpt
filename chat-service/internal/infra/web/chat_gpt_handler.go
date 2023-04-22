@@ -47,7 +47,7 @@ func (h *WebChatGPTHandler) Handle(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 		return
 	}
-	dto.config = h.Config
+	dto.Config = h.Config
 
 	result, err := h.CompletionUseCase.Execute(r.Context(), dto)
 	w.WriteHeader(http.StatusOK)
