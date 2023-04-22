@@ -1,5 +1,6 @@
 module github.com/CaioVGA/chat-service-chatgpt/tree/main/chat-service
 
+
 go 1.20
 
 require (
