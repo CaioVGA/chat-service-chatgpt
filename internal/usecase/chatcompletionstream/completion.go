@@ -6,8 +6,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/CaioVGA/chat-service-chatgpt/chat-service/domain/entity"
-	"github.com/CaioVGA/chat-service-chatgpt/chat-service/domain/gateway"
+	"github.com/CaioVGA/chat-service-chatgpt/internal/domain/entity"
+	"github.com/CaioVGA/chat-service-chatgpt/internal/domain/gateway"
 	openai "github.com/sashabaranov/go-openai"
 )
 
