@@ -12,7 +12,7 @@ type conf struct {
 	WebServerPort      string   `mapstructure:"WEB_SERVER_PORT"`
 	GRPCServerPort     string   `mapstructure:"GRPC_SERVER_PORT"`
 	InitialChatMessage string   `mapstructure:"INITIAL_CHAT_MESSAGE"`
-	OpenAIAPiKey       string   `mapstructure:"OPENAI_API_KEY"`
+	OpenAIApiKey       string   `mapstructure:"OPENAI_API_KEY"`
 	Model              string   `mapstructure:"MODEL"`
 	ModelMaxTokens     int      `mapstructure:"MODEL_MAX_TOKENS"`
 	Temperature        float64  `mapstructure:"TEMPERATURE"`
